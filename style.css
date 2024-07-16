@@ -554,4 +554,11 @@ hr {
   width: 100% !important;
 }
 
+  .introName:hover {
+  transform: scale(1.1);
+}
+
+.imgIntro:hover {
+  transform: scale(1.1);
+}
 }
