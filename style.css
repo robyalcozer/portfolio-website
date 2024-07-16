@@ -535,19 +535,22 @@ button#myBtn {
   display: flex !important;
   flex-direction: column !important;
 }
+  
 #reachMe {
   font-size: 20px !important;
   width: 400px !important;
   margin: 0 !important;
   margin-top: -40px !important;
-  margin-left: 85px !important;
+  margin-left: 65px !important;
 }
 
 .socials {
   margin-top: 90px;
   font-size: 20px;
-  margin-left: 20px;
+  margin-left: -10px;
   margin-bottom: -200px;
+}
+rgin-bottom: -200px;
 }
 
 hr {
