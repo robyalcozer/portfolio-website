@@ -507,8 +507,7 @@ li a:hover {
 }
 
 #dot-container {
-  margin-left: 160px !important;
-  margin-top: 10px !important;
+  display: none;
 }
 
 .skillset {
