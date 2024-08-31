@@ -114,6 +114,7 @@ li a:hover {
   background: linear-gradient(to right, red, blue);
   background-clip: text;
   color: transparent;
+  width: 280px;
 }
 
 .introName:hover {
