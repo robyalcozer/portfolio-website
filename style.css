@@ -528,8 +528,8 @@ flex-direction: column;
 }
 
 button#myBtn {
-  position: relative;
-  margin-left: 25%;
+  display: flex;
+  margin-left: 5%;
 }
 
 .cont {
