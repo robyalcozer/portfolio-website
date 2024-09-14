@@ -529,7 +529,7 @@ flex-direction: column;
 
 button#myBtn {
   position: relative;
-  left: 25%;
+  margin-left: 25%;
 }
 
 .cont {
