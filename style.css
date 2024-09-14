@@ -437,6 +437,7 @@ li a:hover {
 .introName {
     margin: -140px -50px;
     font-size: 30px !important;
+    width: auto; !important
 }
 
 #introdesc {
@@ -529,7 +530,7 @@ flex-direction: column;
 
 button#myBtn {
   position: relative;
-  left: 30px;
+  right: 30px;
 }
 
 .cont {
