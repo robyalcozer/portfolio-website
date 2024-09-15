@@ -456,7 +456,7 @@ li a:hover {
   display: flex;
   position: relative;
   bottom: 160px;
-  font-size: 27px;
+  font-size: 27px !important;
   margin: 0 auto;
   text-align: center;
   width: 220px !important;
