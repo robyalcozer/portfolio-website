@@ -437,7 +437,7 @@ li a:hover {
 .introName {
     margin: -140px -50px;
     font-size: 30px !important;
-    width: auto; !important
+    width: auto !important; 
 }
 
 #introdesc {
@@ -453,9 +453,13 @@ li a:hover {
 }
 
 .aboutMe#aboutMe {
-  margin: -150px;
+  display: flex;
+  position: relative;
+  bottom: 160px;
   font-size: 30px;
-  margin-right: -130px;
+  margin: 0 auto;
+  text-align: center;
+  width: 200px !important;
 }
 
 .profile {
@@ -466,7 +470,7 @@ li a:hover {
 
 .aboutIntro {
   margin-left: 70px;
-  margin-top: 350px;
+  margin-top: 80px;
   font-size: 15px;
   width: 65%;
 }
@@ -529,8 +533,9 @@ flex-direction: column;
 }
 
 button#myBtn {
-  position: relative;
-  right: 120px;
+  display: flex;
+  margin-right: 39px;
+  
 }
 
 .cont {
@@ -540,7 +545,7 @@ button#myBtn {
   
 #reachMe {
   font-size: 20px !important;
-  width: 400px !important;
+  width: 370px !important;
   margin: 0 !important;
   margin-top: -40px !important;
   margin-left: 65px !important;
