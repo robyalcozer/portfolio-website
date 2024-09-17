@@ -437,7 +437,7 @@ li a:hover {
 .introName {
     margin: -140px -50px;
     font-size: 30px !important;
-    width: auto !important; 
+    width: 250px !important; 
 }
 
 #introdesc {
