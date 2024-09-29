@@ -449,7 +449,7 @@ li a:hover {
 .imgIntro {
     position: relative;
         top: 5.5em;
-        left: 80%;
+        left: 2em;
         width: 250px !important;
         height: auto !important;
 }
