@@ -409,157 +409,104 @@ li a:hover {
   padding: -20px 0;
 }
 
-@media (max-width: 480px) {
+@media only screen and (max-width: 480px) {
+  body {
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Ensures elements are centered by default */
+  }
+
+  /* Center header elements */
   header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 10px;
+  }
+
+  header ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  header li {
+    float: none;
+    padding: 5px;
+  }
+
+  /* Center intro content */
+  .intro {
+    margin: 0 20px; /* Adds some space on the sides */
+    text-align: center;
+  }
+
+  .intro p {
+    width: auto; /* Allows the text to adapt to smaller screens */
+  }
+
+  .imgIntro {
+    width: 80%; /* Make the image responsive */
+    margin-top: 20px;
+    float: none;
+  }
+
+  /* Adjust profile image */
+  .profile {
+    width: 150px;
+    margin: 20px auto; /* Centers the image */
+  }
+
+  /* Center the sections */
+  section {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .aboutIntro,
+  .aboutIntros,
+  .aboutIntross {
+    width: auto;
+    margin: 0 20px;
+    text-align: justify;
+  }
+
+  /* Center the skillset */
+  .skillset {
+    flex-direction: column;
+  }
+
+  .column {
     width: 100%;
-}
+    margin-bottom: 20px;
+  }
 
-.sidenav {
-  display: flex;
-  flex-direction: column;
-  
-}
+  /* Projects section */
+  .slideshow-container {
+    width: 90%;
+    margin: 20px auto;
+  }
 
-.nav-links {
-    display: none;
-}
+  /* Adjust the contact section */
+  .cont {
+    flex-direction: column;
+    margin: 20px;
+  }
 
-.hamburger {
-    display: block;
-}
+  .socials {
+    margin-left: 0;
+  }
 
+  /* Keep 'myBtn' and 'sidenav' unaffected */
+  #myBtn {
+    right: 20px;
+  }
 
-
-.introName {
-    margin: -140px -50px;
-    font-size: 30px !important;
-    width: 250px !important; 
-}
-
-#introdesc {
-    margin: 20px -120px;
-    font-size: 13px !important;
-    max-width: 330px !important;
-}
-
-.imgIntro {
-    position: relative;
-        top: 5.5em;
-        left: 2em;
-        width: 250px !important;
-        height: auto !important;
-}
-
-.aboutMe#aboutMe {
-  display: flex;
-  position: relative;
-  bottom: 160px;
-  font-size: 27px !important;
-  margin: 0 auto;
-  text-align: center;
-  width: 220px !important;
-  left: 30px;
-}
-
-.profile {
-  margin: -80px 100px;
-  width: 150px;
-  height: auto;
-}
-
-.aboutIntro {
-  margin-left: 70px;
-  margin-top: 80px;
-  font-size: 15px;
-  width: 65%;
-}
-
-.aboutIntros {
-  margin-left: 70px;
-  font-size: 15px;
-  width: 65%;
-}
-
-.aboutIntross {
-  margin-left: 70px;
-  font-size: 15px;
-  width: 65%;
-  margin-bottom: -200px;
-}
-
-.project {
-  font-size: 30px;
-  margin-top: -30px;
-  margin-right: 10px;
-}
-
-.projc {
-  font-size: 20px !important;
-  margin-top: -70px !important;
-  text-align: center !important;
-  margin-left: 85px !important;
-  width: 50%;
-}
-
-.pros {
-  display: none;
-}
-
-.slideshow-container {
-  width: 80%;
-  margin-left: 40px !important;
-  margin-top: 50px !important;
-}
-
-#dot-container {
-  display: none;
-}
-
-.skillset {
-flex-direction: column;
-}
-
-.column {
-  font-size: 20px;
-  width: 80%;
-  height: 250px;
-  margin-left: 30px;
-}
-
-.column img {
-  width: 30%;
-  height: auto;
-}
-
-button#myBtn {
-  display: flex;
-  margin-right: 39px;
-  
-}
-
-.cont {
-  display: flex !important;
-  flex-direction: column !important;
-}
-  
-#reachMe {
-  font-size: 20px !important;
-  width: 370px !important;
-  margin: 0 !important;
-  margin-top: -40px !important;
-  margin-left: 65px !important;
-}
-
-.socials {
-  margin-top: 90px;
-  font-size: 18px;
-  margin-left: -10px;
-  margin-bottom: -200px;
-}
+  .sidenav {
+    width: 100%;
+  }
 
 hr {
   width: 100% !important;
