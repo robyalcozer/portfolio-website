@@ -438,12 +438,14 @@ li a:hover {
     margin: -140px -50px;
     font-size: 30px !important;
     width: 250px !important; 
+    text-align: center;
 }
 
 #introdesc {
     margin: 20px -120px;
     font-size: 13px !important;
     max-width: 330px !important;
+    text-align: center;
 }
 
 .imgIntro {
