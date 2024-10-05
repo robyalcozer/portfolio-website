@@ -415,7 +415,6 @@ li a:hover {
   text-align: justify;
   /* Ensures alignment for larger screens */
   margin: 0 auto;
-  width: 600px;
   /* Default width for larger screens */
   font-family: "Roboto", sans-serif;
   color: #E4DACA;
@@ -471,13 +470,11 @@ li a:hover {
 
   .introduction {
     margin-top: 20px !important;
-    margin-left: 90px !important;
+    margin-left: 110px !important;
     text-align: center;
     /* Center text for smaller screens */
     margin: 0 20px;
-    /* Adjust margins for proper spacing */
     width: auto;
-    /* Allow text to use available space */
   }
 
   .imgIntro {
