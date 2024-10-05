@@ -578,8 +578,7 @@ li a:hover {
   }
 
   button#myBtn {
-    display: flex;
-    margin-right: 39px;
+    right: 60px;
 
   }
 
