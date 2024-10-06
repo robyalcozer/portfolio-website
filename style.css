@@ -104,7 +104,7 @@ li a:hover {
 .intro {
   color: #E4DACA;
   font-size: 40px;
-  margin: 140px;
+  margin: 17vh 9vw;
   font-family: "Roboto", sans-serif;
   cursor: pointer;
 }
@@ -156,35 +156,20 @@ li a:hover {
   font-weight: 1000;
 }
 
-.aboutIntro {
-  text-align: justify, center !important;
-  margin: 0 535px;
-  width: 600px;
-  font-family: "Roboto", sans-serif;
-  color: #E4DACA;
-  font-size: 20px;
+.aboutIntro, .aboutIntros, .aboutIntross {
+  width: 50vw;
 }
 
-.aboutIntros {
-  text-align: justify, center !important;
-  margin: 0 535px;
-  width: 600px;
-  font-family: "Roboto", sans-serif;
-  color: #E4DACA;
-  font-size: 20px;
-}
-
-.aboutIntross {
-  text-align: justify, center !important;
-  margin: 0 535px;
-  width: 600px;
+.aboutIntro, .aboutIntros, .aboutIntross {
+  position: relative;
+  left: 26em;
   font-family: "Roboto", sans-serif;
   color: #E4DACA;
   font-size: 20px;
 }
 
 .profile {
-  width: 200px;
+  width: 16vw;
   height: auto;
   margin: 0 250px;
   margin-bottom: -250px;
@@ -327,8 +312,8 @@ li a:hover {
 }
 
 .column img {
-  width: 22%;
-  height: 30%;
+  width: 8vw;
+  height: auto;
   flex-direction: row;
   display: flex !important;
 }
@@ -512,25 +497,11 @@ li a:hover {
     margin: 0;
   }
 
-  .aboutIntro {
+  .aboutIntro, .aboutIntros, .aboutIntross {
     font-size: 15px;
     text-align: center !important;
-    margin: 0;
-    width: 90%;
-  }
-
-  .aboutIntros {
-    margin: 0;
-    font-size: 15px;
-    text-align: center !important;
-    width: 90%;
-  }
-
-  .aboutIntross {
-    margin: 0;
-    font-size: 15px;
-    text-align: center !important;
-    width: 90%;
+    left: 0;
+    width: 80%;
   }
 
   .project {
@@ -578,8 +549,7 @@ li a:hover {
   }
 
   button#myBtn {
-    right: 60px;
-
+   right: 60px;
   }
 
   .cont {
@@ -589,7 +559,7 @@ li a:hover {
 
   #reachMe {
     font-size: 20px !important;
-    width: 370px !important;
+    width: 350px !important;
     margin: 0 !important;
     margin-top: -40px !important;
     margin-left: 65px !important;
@@ -602,15 +572,15 @@ li a:hover {
     margin-bottom: -200px;
   }
 
-  hr {
-    width: 100% !important;
-  }
-
   .introName:hover {
     transform: scale(1.1);
   }
 
   .imgIntro:hover {
     transform: scale(1.1);
+  }
+
+  hr {
+    width: 100% !important;
   }
 }
