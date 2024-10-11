@@ -407,6 +407,10 @@ li a:hover {
 }
 
 @media (max-width: 480px) {
+
+  body {
+    overflow-x: hidden;
+  }
   header {
     display: flex;
     justify-content: space-between;
